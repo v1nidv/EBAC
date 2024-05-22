@@ -6,14 +6,18 @@
     <title>X > Y</title>
     <link rel="stylesheet" href="./main.css" />
 </head>
+
 <body>
-    <h1>Calcular</h1>
-    <h2>X > Y</h2>
-    <form id="form-calcular">
-        <input type="number" id="numberX" required placeholder="X" />
-        <input type="number" id="numberY" required placeholder="Y" />
-        <button id="calcular" type="submit">CALCULAR</button>
-    </form>
-    <script src="./main.js"></script>
+    <div class="container">
+        <h1>Calcular</h1>
+        <h2>X > Y</h2>
+        <form id="form-calcular">
+            <input type="number" id="numberX" required placeholder="X" required>
+            <input type="number" id="numberY" required placeholder="Y" required>
+            <button id="calcular" type="submit">CALCULAR</button>
+            <p class="sucess-message" id="mensagem"></p>
+        </form>
+    </div>
 </body>
+<script src="./main.js"></script>
 </html>
